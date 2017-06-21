@@ -50,10 +50,10 @@
 				</field>
 	
 				<field
-					name="image_class"
+					name="container_class"
 					type="textarea"
-					label="PLG_FIELDS_UIKITGALLERY_PARAMS_IMAGE_CLASS_LABEL"
-					description="PLG_FIELDS_UIKITGALLERY_PARAMS_IMAGE_CLASS_DESC"
+					label="PLG_FIELDS_UIKITGALLERY_PARAMS_CONTAINER_CLASS_LABEL"
+					description="PLG_FIELDS_UIKITGALLERY_PARAMS_CONTAINER_CLASS_DESC"
 					size="40"
 				/>
 			</fieldset>
