@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.7.0" group="fields" method="upgrade">
+	<name>plg_fields_uikitgallery</name>
+	<author>Barbara Aßmann</author>
+	<creationDate>June 2017</creationDate>
+	<copyright>Copyright (C) 2005 - 2017 webnet-assmann.de. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@webnet-assmann.de</authorEmail>
+	<authorUrl>www.webnet-assmann.de</authorUrl>
+	<version>1.0</version>
+	<description>PLG_FIELDS_UIKITGALLERY_DESC</description>
+	<files>
+		<filename plugin="uikitgallery">uikitgallery.php</filename>
+		<folder>language</folder>
+		<folder>params</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_fields_uikitgallery.ini</language>
+		<language tag="en-GB">en-GB.plg_fields_uikitgallery.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="directory"
+					type="folderlist"
+					directory="images"
+					required="true"
+					hide_none="true"
+					hide_default="true"
+					recursive="true"
+					default="/"
+					label="PLG_FIELDS_UIKITGALLERY_PARAMS_DIRECTORY_LABEL"
+					description=" "
+				>
+					<option value="/">/</option>
+				</field>
+	
+				<field
+					name="multiple"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="0"
+					label="PLG_FIELDS_UIKITGALLERY_PARAMS_MULTIPLE_LABEL"
+					description="PLG_FIELDS_UIKITGALLERY_PARAMS_MULTIPLE_DESC"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+	
+				<field
+					name="image_class"
+					type="textarea"
+					label="PLG_FIELDS_UIKITGALLERY_PARAMS_IMAGE_CLASS_LABEL"
+					description="PLG_FIELDS_UIKITGALLERY_PARAMS_IMAGE_CLASS_DESC"
+					size="40"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
