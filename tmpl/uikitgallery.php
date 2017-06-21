@@ -13,7 +13,7 @@ if (!$field->value || $field->value == '-1') {
 }
 // get the folder name in images directory
 $path = $field->value;
-$class = $fieldParams->get('image_class');
+$class = $fieldParams->get('container_class');
 
 // read the .jpg from the selected directory
 jimport('joomla.filesystem.folder');
