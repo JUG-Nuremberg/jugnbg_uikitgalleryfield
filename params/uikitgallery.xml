@@ -19,8 +19,8 @@
 			<field
 				name="multiple"
 				type="list"
-				label="PLG_FIELDS_IMAGELIST_PARAMS_MULTIPLE_LABEL"
-				description="PLG_FIELDS_IMAGELIST_PARAMS_MULTIPLE_DESC"
+				label="PLG_FIELDS_UIKITGALLERY_PARAMS_MULTIPLE_LABEL"
+				description="PLG_FIELDS_UIKITGALLERY_PARAMS_MULTIPLE_DESC"
 			>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="1">JYES</option>
@@ -28,10 +28,10 @@
 			</field>
 
 			<field
-				name="image_class"
+				name="container_class"
 				type="textarea"
-				label="PLG_FIELDS_IMAGELIST_PARAMS_IMAGE_CLASS_LABEL"
-				description="PLG_FIELDS_IMAGELIST_PARAMS_IMAGE_CLASS_DESC"
+				label="PLG_FIELDS_UIKITGALLERY_PARAMS_CONTAINER_CLASS_LABEL"
+				description="PLG_FIELDS_UIKITGALLERY_PARAMS_CONTAINER_CLASS_DESC"
 				size="40"
 			/>
 		</fieldset>
